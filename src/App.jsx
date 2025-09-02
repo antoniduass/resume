@@ -136,7 +136,7 @@ export default function App() {
                 Привет, я Антон
               </h1>
               <p style={{ fontSize: '17px', color: '#94a3b8', marginTop: '8px' }}>
-                Junior Java Developer, увлечённый backend-разработкой, микросервисами и качественным кодом.
+                Java Developer, увлечённый backend-разработкой, микросервисами и качественным кодом.
               </p>
               <a href="/resume.pdf" download style={styles.button}>
                 📄 Скачать PDF
@@ -270,7 +270,7 @@ export default function App() {
 
       {/* Footer */}
       <footer style={styles.footer}>
-        <p>© 2025 Буханец А.В. Junior Java Developer | Москва</p>
+        <p>© 2025 Буханец А.В. Java Developer | Москва</p>
       </footer>
     </div>
   );
