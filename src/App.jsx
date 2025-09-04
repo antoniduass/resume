@@ -85,7 +85,6 @@ export default function App() {
       borderRadius: '12px',
       objectFit: 'cover',
       objectPosition: 'center 20%',
-      border: '3px solid #3b82f6',
       boxShadow: '0 10px 25px rgba(59, 130, 246, 0.3)',
     },
     button: {
@@ -112,8 +111,8 @@ export default function App() {
       borderRadius: '12px',
       border: '3px solid #3b82f6',
       boxShadow: '0 10px 25px rgba(59, 130, 246, 0.3)',
+        background: 'linear-gradient(135deg, #0f172a, #1e293b)', 
     },
-    // Стиль для заголовков, как у "О себе"
     sectionTitle: {
       fontSize: '22px',
       fontWeight: '600',
@@ -256,21 +255,17 @@ export default function App() {
             <ul style={{ paddingLeft: '20px', marginTop: '8px', color: '#e2e8f0' }}>
               <li>
                 {/* Замени на название курса */}
-                <strong>Курс по Java и Spring Boot</strong>
+                <strong>Курс "Java для начинающих. Level 1"</strong>
                 {/* Добавь ссылку на курс (опционально) */}
-                {/* <a href="https://example.com/java-course" target="_blank" style={{ color: '#3b82f6', marginLeft: '8px' }}>🔗 Перейти</a> */}
+                /<a href="https://www.udemy.com/course/java1-dmdev/" target="_blank" style={{ color: '#3b82f6', marginLeft: '8px' }}>🔗 Перейти</a>
               </li>
               <li>
-                <strong>Основы Docker и контейнеризации</strong>
-                {/* <a href="https://example.com/docker-course" target="_blank" style={{ color: '#3b82f6', marginLeft: '8px' }}>🔗 Перейти</a> */}
+                <strong>Курс "Apache Maven"</strong>
+                <a href="https://www.udemy.com/course/maven-dmdev/" target="_blank" style={{ color: '#3b82f6', marginLeft: '8px' }}>🔗 Перейти</a>
               </li>
               <li>
-                <strong>Работа с Git и GitHub</strong>
-                {/* <a href="https://example.com/git-course" target="_blank" style={{ color: '#3b82f6', marginLeft: '8px' }}>🔗 Перейти</a> */}
-              </li>
-              <li>
-                <strong>Разработка REST API</strong>
-                {/* <a href="https://example.com/rest-course" target="_blank" style={{ color: '#3b82f6', marginLeft: '8px' }}>🔗 Перейти</a> */}
+                <strong>Основы работы с Git</strong>
+                <a href="https://practicum.yandex.ru/profile/git-basics/?from=profile_subscriptions-with-prof-recommendations" target="_blank" style={{ color: '#3b82f6', marginLeft: '8px' }}>🔗 Перейти</a>
               </li>
             </ul>
           </div>
