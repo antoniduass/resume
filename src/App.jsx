@@ -135,7 +135,7 @@ export default function App() {
           }}
         >
           <div style={styles.photoContainer}>
-            <img src={photos[0]} alt="Фото" style={styles.img} />
+            <img src="/photo.jpg" alt="Фото" style={styles.img} />
           </div>
           <div style={{ textAlign: 'left', maxWidth: '500px' }}>
             <h1 style={{ fontSize: '28px', fontWeight: '700', color: '#fff', margin: 0 }}>
@@ -171,7 +171,7 @@ export default function App() {
 
           {/* Второе фото — справа */}
           <div style={styles.photoContainer}>
-            <img src={photos[1]} alt="Фото" style={styles.img} />
+            <img src="/photo2.jpg" alt="Фото" style={styles.img} />
           </div>
         </div>
 
@@ -185,7 +185,7 @@ export default function App() {
         >
           {/* Третье фото — слева */}
           <div style={styles.photoContainer}>
-            <img src={photos[2]} alt="Фото" style={styles.img} />
+            <img src="/photo3.jpg" alt="Фото" style={styles.img} />
           </div>
 
           {/* Ключевые качества — справа */}
@@ -224,6 +224,7 @@ export default function App() {
               'Prometheus',
               'Grafana',
               'PostgreSQL',
+              'Swagger',
             ].map((skill) => (
               <span key={skill} style={styles.skill}>
                 {skill}
