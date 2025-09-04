@@ -80,8 +80,8 @@ export default function App() {
       borderTop: '1px solid #334155',
     },
     img: {
-      width: '180px',
-      height: '180px',
+      width: '300px',
+      height: '300px',
       borderRadius: '12px',
       objectFit: 'cover',
       objectPosition: 'center 20%',
